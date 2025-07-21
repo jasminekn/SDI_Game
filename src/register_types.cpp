@@ -21,6 +21,11 @@ void uninitialize_gdextension_types(ModuleInitializationLevel p_level) {
 	if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
 		return;
 	}
+
+    //HERE IS WHERE CLASSES/CODE GOES
+	GDREGISTER_CLASS(ExampleClass);
+	
+
 }
 
 extern "C"
